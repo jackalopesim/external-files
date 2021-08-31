@@ -170,6 +170,17 @@ a:hover svg {
     letter-spacing: 0.1em;
 }
 
+#btop {
+    position: fixed;
+    right: 18px;
+    bottom: 40px;
+}
+ 
+#btop svg {
+    width: 30px;
+    height: 30px;
+}
+
 /*----- HEADER -----*/
 
 header {
