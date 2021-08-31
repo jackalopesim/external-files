@@ -181,6 +181,30 @@ a:hover svg {
     height: 30px;
 }
 
+#k:hover {background-color: {color:accent}; color: {color:background};}
+
+@media only screen and (max-width: 800px) {
+    article {width: 90vw;}
+    
+    .info-dropdown {margin-left: calc(90vw - 250px);}
+    
+    #k {display: none;}
+    #m {display: block;}
+}
+
+@media only screen and (max-width: 500px) {
+    article {
+        width: 100vw; 
+        padding: 30px;
+        border-radius: 0;
+    }
+    
+    #sidebar {width: 80vw; left: -80vw;}
+    
+    .info-dropdown {margin-left: calc(100vw - 260px);}
+    #btop {display: none;}
+}
+
 /*----- HEADER -----*/
 
 header {
