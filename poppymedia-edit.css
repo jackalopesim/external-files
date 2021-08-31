@@ -88,7 +88,7 @@ h5 {font-size: 0.9em;}
 small {font-size: 0.9em;}
 big {font-size: 1.1em;}
 b, strong {color: var(--title);}
-b a, strong a {color: var(--link);}
+b a, strong a {color: var(--title);}
 b a:hover, strong a:hover {color: var(--accent);}
 
 ::-webkit-scrollbar {
